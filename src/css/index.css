@@ -1,0 +1,40 @@
+
+.tablero {
+    border: 1px solid blue;
+    display: flex;
+
+  }
+  
+.celda {
+  width: 100%;
+  text-align: center;
+}
+
+.carta{
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.bingo{
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+  border-radius: 40%;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 75px;
+}
+
+.number {
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.number.strike {
+  text-decoration: line-through;
+  color: #A22;
+}
