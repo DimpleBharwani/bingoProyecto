@@ -22,7 +22,7 @@ putNumbers('.jugador', jugador);
 const cpu = createCarton();
 putNumbers('.cpu', cpu);
 
-//We put a new number in the cell
+//We put a new number in the cell and remove the repeated
 const newNumber = () => { 
     const newBall = ballBingo.pop();
     dom.classBingo.textContent = newBall;
